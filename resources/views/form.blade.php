@@ -25,16 +25,16 @@
         <div class='input'>
             <select name='category'>
                 @if (old('category'))
-                    <option selected value="{{ old('category') }}">{{ old('category') }} &nbsp;</option>
+                    <option selected value="{{ old('category') }}">{{ old('category') }}</option>
                 @else
-                    <option value='' selected disabled>None</option>
+                    <option selected disabled>None</option>
                 @endif
                 <option value='Income'>Income</option>
                 <option value='Gift'>Gift</option>
-                <option disabled></option>
+                <option disabled>&nbsp;</option>
                 <option value='One-time Expense'>One-time Expense</option>
                 <option value='Regular Expense'>Regular Expense</option>
-                <option disabled></option>
+                <option disabled>&nbsp;</option>
                 <option value='Food'>Food</option>
                 <option value='Gas'>Gas</option>
                 <option value='Online Shopping'>Online Shopping</option>
