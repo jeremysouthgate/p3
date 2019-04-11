@@ -25,7 +25,7 @@
         <div class='input'>
             <select name='category'>
                 @if (old('category'))
-                    <option selected value="{{ old('category') }}">{{ old('category') }}</option>
+                    <option selected value="{{ old('category') }}">{{ old('category') }} &nbsp;</option>
                 @else
                     <option selected disabled>None</option>
                 @endif
