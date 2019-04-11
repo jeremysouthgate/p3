@@ -95,7 +95,7 @@
     <div>
         <div class='label'></div>
         <div class='input'>
-            <input type='submit' name='submit' value='Add'/>
+            <input type='submit' name='submit' value='Add Ledger Entry'/>
         </div>
     </div>
 
