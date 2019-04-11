@@ -27,7 +27,7 @@
                 @if (old('category'))
                     <option selected value="{{ old('category') }}">{{ old('category') }} &nbsp;</option>
                 @else
-                    <option selected disabled>None</option>
+                    <option value='' selected disabled>None</option>
                 @endif
                 <option value='Income'>Income</option>
                 <option value='Gift'>Gift</option>
