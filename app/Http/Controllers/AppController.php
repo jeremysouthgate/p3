@@ -135,8 +135,11 @@ class AppController extends Controller
     public function delete_last(Request $request)
     {
         // Count the number of elements in Current Session Array, and delete last
-        $count = count($request->session()->get('data')) - 1;
-        $request->session()->forget('data.'.$count);
+        if ($data = $request->session()->get('data'))
+        {
+            $count = count($data) - 1;
+            $request->session()->forget('data.'.$count);
+        }
 
         // Redirect
         return redirect('/');
