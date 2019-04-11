@@ -32,10 +32,10 @@
                 <option value='Income'>Income</option>
                 <option value='Gift'>Gift</option>
                 <option disabled></option>
-                <option value='Regular Expense'>One-time Expense</option>
+                <option value='One-time Expense'>One-time Expense</option>
                 <option value='Regular Expense'>Regular Expense</option>
                 <option disabled></option>
-                <option value='Good'>Food</option>
+                <option value='Food'>Food</option>
                 <option value='Gas'>Gas</option>
                 <option value='Online Shopping'>Online Shopping</option>
             </select>
