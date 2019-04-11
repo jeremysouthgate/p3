@@ -74,7 +74,7 @@ class AppController extends Controller
 
 
         // Retrieve Input Values from the Request
-        $date = date("Y-m-d H:i:m", time());
+        $date = date("Y-m-d H:i:s", time());
         $category = $request->input('category');
         $amount = $request->input('amount');
         $type = $request->input('type');
