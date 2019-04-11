@@ -76,7 +76,7 @@ class AppController extends Controller
         // Retrieve Input Values from the Request
         $date = date("Y-m-d H:i:s", time());
         $category = $request->input('category');
-        $amount = number_format($request->input('amount'), 2);
+        $amount = number_format($request->input('amount'), 2, ".", "");
         $type = $request->input('type');
         $entity = $request->input('entity');
 
@@ -84,7 +84,7 @@ class AppController extends Controller
         // Make "Amount" Positive or Negative based on Expense/Income designation
         if ($type == "to")
         {
-            $amount = number_format(($amount * -1), 2);
+            $amount = number_format(($amount * -1), 2, ".", "");
         }
 
 
