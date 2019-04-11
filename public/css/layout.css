@@ -202,7 +202,7 @@ body
             }
 
     /* Delete Last */
-    #delete_last, #delete_all, #save
+    #delete_last, #delete_all
     {
         width: calc(100% - 200px);
         height: 45px;
@@ -222,9 +222,4 @@ body
         {
             color: white;
             background: red;
-        }
-        #save:hover
-        {
-            color: white;
-            background: gold;
         }

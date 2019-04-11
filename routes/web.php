@@ -21,6 +21,6 @@ Route::post('/delete_all', 'AppController@delete_all');
 // Error Handling
 
 // Catch-all GET urls, redirect to Main View
-Route::get('/{any?}', function(){
+Route::fallback(function(){
     return redirect('/');
 });
