@@ -156,7 +156,7 @@
             <div class='data_row'>
                 <li>{{ $data['date'] }}</li>
                 <li>{{ $data['category'] }}</li>
-                <li>{{ $data['amount'] }}</li>
+                <li>{{ number_format($data['amount'], 2) }}</li>
                 <li>{{ $data['type'] }}</li>
                 <li>{{ $data['entity'] }}</li>
             </div>
