@@ -63,15 +63,10 @@ body
     }
 
         /* Prompt */
-        .prompt h4
+        #prompt
         {
             margin-left: 200px;
-            display: block;
         }
-            .prompt small
-            {
-                display: inline-block;
-            }
 
         /* Divs containing a label (left) and input (right) */
         main form div
