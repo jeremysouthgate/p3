@@ -84,7 +84,7 @@ class AppController extends Controller
         // Make "Amount" Positive or Negative based on Expense/Income designation
         if ($type == "to")
         {
-            $amount = $amount * -1;
+            $amount = number_format(($amount * -1), 2);
         }
 
 
