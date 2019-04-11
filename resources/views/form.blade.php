@@ -14,7 +14,7 @@
 
 
     <!-- Prompt -->
-    <small id='prompt'><i>All Fields Required</i></small>
+    <h4 id='prompt'>Create a Ledger Entry. <small><i>All fields are required.</i></small></h5>
 
 
     <!-- Ledger Entry Category -->
@@ -95,7 +95,7 @@
     <div>
         <div class='label'></div>
         <div class='input'>
-            <input type='submit' name='submit' value='Add Ledger Entry'/>
+            <input type='submit' name='submit' value='Add to Ledger'/>
         </div>
     </div>
 
