@@ -1,0 +1,230 @@
+/* Spot Colors */
+:root
+{
+    --background: #999999;
+    --content: #BBBBBB;
+    --form: #EAEAEA;
+}
+
+/* Remove Browser-Default Margins */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova;
+}
+
+/* Link Element Styling */
+a
+{
+    color: black;
+    text-decoration: none;
+}
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+/* Error Flash Styling */
+.error
+{
+    width: calc(100% - 200px);
+    color: red;
+    padding-left: 200px;
+    padding-top: 5px;
+    background: var(--background);
+}
+
+/* Body Minimum-Width */
+body
+{
+    min-width: 600px;
+    background: black;
+}
+
+    /* Header */
+    header
+    {
+        background: var(--background);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Main/Form Section */
+    main
+    {
+        width: calc(100% - 100px);
+        height: auto;
+        background: var(--content);
+        padding: 50px;
+    }
+
+        /* Prompt */
+        #prompt
+        {
+            margin-left: 200px;
+        }
+
+        /* Divs containing a label (left) and input (right) */
+        main form div
+        {
+            width: 100%;
+            height: 45px;
+            background: var(--form);
+        }
+
+            /* Labels (left) */
+            .label
+            {
+                background: var(--background);
+                width: calc(200px - 25px);
+                display: flex;
+                align-items: center;
+                padding-left: 25px;
+                position: relative;
+                float: left;
+            }
+
+            /* Inputs (Right) */
+            .input
+            {
+                width: calc(100% - 200px);
+                position: relative;
+                float: left;
+                display: flex;
+                align-items: center;
+            }
+
+                /* Text/Number-input Specific Formatting */
+                .input input[type='text'], .input input[type='number']
+                {
+                    width: calc(100% - 10px);
+                    height: 100%;
+                    border: none;
+                    padding-left: 10px;
+                    font-size: 15px;
+                }
+
+                /* A Group for Multiple Radio Buttons */
+                .radio
+                {
+                    width: 300px;
+                    margin: 0 auto 0 auto;
+                    display: flex;
+                    align-items: center;
+                }
+                    /* Radio-input Specific Formatting */
+                    .input input[type='radio']
+                    {
+                        height: 25px;
+                        width: 25px;
+                        margin-left: 10px;
+                    }
+                        /* Radio-input Specific Labels */
+                        .input label
+                        {
+                            margin-left: 10px;
+                            margin-right: 50px;
+                        }
+                /* Select-input Specific Formatting */
+                .input select
+                {
+                    width: calc(100%);
+                    height: 100%;
+                    border: none;
+                    padding-left: 10px;
+                    font-size: 15px;
+                }
+
+                /* Submit-input Specific Formatting */
+                .input input[type='submit']
+                {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 15px;
+                }
+                    .input input[type='submit']:hover
+                    {
+                        color: white;
+                        background: #000055;
+                    }
+    /* Results Section */
+    #results
+    {
+        width: 100%;
+        height: auto;
+        background: white;
+    }
+        /* Results -- Printable Output for the User */
+        #results_header
+        {
+            width: 100%;
+            height: 100px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            /* Row Formatting */
+            .data_row
+            {
+                width: 100%;
+                height: auto;
+                display: flex;
+            }
+                /* Item Formatting */
+                .data_row li
+                {
+                    list-style: none;
+                    flex-grow: 1;
+                    flex-basis: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            /* Total */
+            #total
+            {
+                background: black;
+                color: white;
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+            }
+
+    /* Delete Last */
+    #delete_last, #delete_all, #save
+    {
+        width: calc(100% - 200px);
+        height: 45px;
+        border: none;
+        background: var(--form);
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 25px;
+        margin-left: 200px;
+    }
+        #delete_last:hover
+        {
+            color: white;
+            background: maroon;
+        }
+        #delete_all:hover
+        {
+            color: white;
+            background: red;
+        }
+        #save:hover
+        {
+            color: white;
+            background: gold;
+        }
