@@ -14,7 +14,10 @@
 
 
     <!-- Prompt -->
-    <h4 id='prompt'>Create a Ledger Entry. <small><i>All fields are required.</i></small></h5>
+    <span id='prompt'>
+        <h4>Create a Ledger Entry. </h5>
+        <small><i>All fields are required.</i></small>
+    </span>
 
 
     <!-- Ledger Entry Category -->
