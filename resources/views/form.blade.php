@@ -14,10 +14,7 @@
 
 
     <!-- Prompt -->
-    <span id='prompt'>
-        <h4>Create a Ledger Entry. </h5>
-        <small><i>All fields are required.</i></small>
-    </span>
+    <h4 id='prompt'>Create a Ledger Entry. <small><i>All fields are required.</i></small></h4>
 
 
     <!-- Ledger Entry Category -->
@@ -70,8 +67,8 @@
         </div>
         <div class='input'>
             <div class='radio'>
-                <input type='radio' name='type' value='from' @if (old('type') == 'from') checked @endif/><label>Received from</label>
-                <input type='radio' name='type' value='to' @if (old('type') == 'to') checked @endif/><label>Paid to</label>
+                <input type='radio' name='type' value='from' @if (old('type') == 'from') checked @endif/><label>From</label>
+                <input type='radio' name='type' value='to' @if (old('type') == 'to') checked @endif/><label>To</label>
             </div>
         </div>
     </div>

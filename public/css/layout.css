@@ -63,12 +63,12 @@ body
     }
 
         /* Prompt */
-        #prompt
+        .prompt h4
         {
             margin-left: 200px;
             display: block;
         }
-            #prompt h4, #prompt small
+            .prompt small
             {
                 display: inline-block;
             }
