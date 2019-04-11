@@ -40,9 +40,7 @@
         </main>
 
         <!-- App Print/Results Output -->
-        <section>
-            @yield('results')
-        </section>
+        @yield('results')
 
     </body>
 </html>

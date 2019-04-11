@@ -3,17 +3,12 @@
 + Production URL: <http://p3.sss1.me>
 
 
-## Outside Sources used
-n/a
+## Project Description
+An App to tally-up income and expenses for tax season.
 
 
-## Any Classes used
-n/a
-
-
-## Code Style Divergences
-n/a
-
-
-## Comments for the Instructor
-n/a
+## Form Elements Used:
++ Select/option
++ Number
++ Radio
++ Text
