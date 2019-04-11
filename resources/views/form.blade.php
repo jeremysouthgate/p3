@@ -67,8 +67,8 @@
         </div>
         <div class='input'>
             <div class='radio'>
-                <input type='radio' name='type' value='from' @if (old('type') == 'from') checked @endif/><label>From</label>
-                <input type='radio' name='type' value='to' @if (old('type') == 'to') checked @endif/><label>To</label>
+                <input type='radio' name='type' value='from' @if (old('type') == 'from') checked @endif/><label>Received From</label>
+                <input type='radio' name='type' value='to' @if (old('type') == 'to') checked @endif/><label>Paid To</label>
             </div>
         </div>
     </div>
